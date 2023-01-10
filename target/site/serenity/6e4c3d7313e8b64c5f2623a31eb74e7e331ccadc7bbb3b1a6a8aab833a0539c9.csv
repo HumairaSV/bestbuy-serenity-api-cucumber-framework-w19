@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Tags test","Provide a 405 status code when incorrect HTTP method is used to access resource","SUCCESS","2023-01-10T12:46:46.771Z[Europe/London]","0.0","0.02"

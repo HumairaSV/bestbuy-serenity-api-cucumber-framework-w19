@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Store Application" skipped="0" tests="2" time="0.37" timestamp="2023-01-10T12:46:46.324Z[Europe/London]"><testcase name="Store CRUD Test"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;500&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.cucumber.steps.MyStepdefs.iVerifyThatTheStoreIsDeletedSuccessfullyFromTheDatabase(MyStepdefs.java:73)&#13;
+✽.Then I verify that the store is deleted successfully from the database(storeCRUD.feature:12)&#13;
+</system-err></testcase></testsuite>

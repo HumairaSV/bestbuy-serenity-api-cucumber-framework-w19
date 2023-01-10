@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.cucumber.CucumberRunner" time="0.863" tests="31" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\humai\IdeaProjects\bestbuy-serenity-api-cucumber-framework-w19"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\humai\IdeaProjects\bestbuy-serenity-api-cucumber-framework-w19"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\humai\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\humai\AppData\Local\Microsoft\WindowsApps;C:\Users\humai\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\humai"/>
+    <property name="tags" value="storefeature:SMOKE, storefeature:SANITY"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="humai"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean verify -Dtags=storefeature:SMOKE, storefeature:SANITY serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="When I send a GET request to stores endpoint" classname="Scenario: Check if the best buy store api can be accessed by users" time="0.001"/>
+  <testcase name="Then I must get back a valid status code &quot;200&quot;" classname="Scenario: Check if the best buy store api can be accessed by users" time="0"/>
+  <testcase name="Scenario: Check if the best buy store api can be accessed by users" classname="Scenario: Check if the best buy store api can be accessed by users" time="0.726"/>
+  <testcase name="When I send a POST request to stores endpoint with the information name &quot;Matlab&quot; type &quot;T8&quot; address &quot;Sherman&quot; address2 &quot;Sherman Avenue&quot; city &quot;Los Angeles&quot; state &quot;California&quot; zip &quot;98568&quot; lat &quot;33.584&quot; lng &quot;114.587&quot; hours &quot;Mon-Sat 8.00am to 8.00pm&quot; service1 &quot;service id&quot; service2 &quot;Not available&quot;" classname="Scenario: Check if a new store can be created on the best buy store api" time="0"/>
+  <testcase name="Then I must get back a valid status code &quot;201&quot;" classname="Scenario: Check if a new store can be created on the best buy store api" time="0"/>
+  <testcase name="Scenario: Check if a new store can be created on the best buy store api" classname="Scenario: Check if a new store can be created on the best buy store api" time="0.049"/>
+  <testcase name="When I send a GET request to single storeID endpoint" classname="Scenario: Check if the best buy store api can be accessed by users by searching store by ID" time="0"/>
+  <testcase name="Then I must get back a valid status code &quot;200&quot;" classname="Scenario: Check if the best buy store api can be accessed by users by searching store by ID" time="0"/>
+  <testcase name="Scenario: Check if the best buy store api can be accessed by users by searching store by ID" classname="Scenario: Check if the best buy store api can be accessed by users by searching store by ID" time="0.021"/>
+  <testcase name="When I send a PUT request to single storeID endpoint with updated information name &quot;Matlab&quot; type &quot;T8&quot; address &quot;Sherman&quot; address2 &quot;Sherman Avenue&quot; city &quot;Los Angeles&quot; state &quot;California&quot; zip &quot;98568&quot; lat &quot;33.584&quot; lng &quot;114.587&quot; hours &quot;Mon-Sat 8.00am to 8.00pm&quot; service1 &quot;service id&quot; service2 &quot;Not available&quot;" classname="Scenario: Check if the best buy store api can be updated by users by searching store by ID" time="0"/>
+  <testcase name="Then I must get back a valid status code &quot;200&quot;" classname="Scenario: Check if the best buy store api can be updated by users by searching store by ID" time="0"/>
+  <testcase name="Scenario: Check if the best buy store api can be updated by users by searching store by ID" classname="Scenario: Check if the best buy store api can be updated by users by searching store by ID" time="0.036"/>
+  <testcase name="When I send a DELETE request to single storeID endpoint" classname="Scenario: Check if the users can delete the store by searching store by ID" time="0"/>
+  <testcase name="Then I must get back a valid status code &quot;200&quot;" classname="Scenario: Check if the users can delete the store by searching store by ID" time="0"/>
+  <testcase name="Scenario: Check if the users can delete the store by searching store by ID" classname="Scenario: Check if the users can delete the store by searching store by ID" time="0.023"/>
+  <testcase name="Given Best buy API playground in running" classname="| Mat Lam Tam | T5 | Morningstar | Suite 84 | Philadelphia | Pennsylvania | 19151 | 39.9772 | -75.2545 | Mon-Fri 8am to  8pm | Service ID | S2 |" time="0"/>
+  <testcase name="When I create a new store by providing the information name &quot;Mat Lam Tam&quot; type &quot;T5&quot; address &quot;Morningstar&quot; address2 &quot;Suite 84&quot; city &quot;Philadelphia&quot; state &quot;Pennsylvania&quot; zip &quot;19151&quot; lat &quot;39.9772&quot; lng &quot;-75.2545&quot; hours &quot;Mon-Fri 8am to  8pm&quot; service1 &quot;Service ID&quot; service2 &quot;S2&quot;" classname="| Mat Lam Tam | T5 | Morningstar | Suite 84 | Philadelphia | Pennsylvania | 19151 | 39.9772 | -75.2545 | Mon-Fri 8am to  8pm | Service ID | S2 |" time="0"/>
+  <testcase name="Then I verify the store with name &quot;Mat Lam Tam&quot; is created" classname="| Mat Lam Tam | T5 | Morningstar | Suite 84 | Philadelphia | Pennsylvania | 19151 | 39.9772 | -75.2545 | Mon-Fri 8am to  8pm | Service ID | S2 |" time="0"/>
+  <testcase name="And I update the store with information name &quot;Mat Lam Tam&quot; type &quot;T5&quot; address &quot;Morningstar&quot; address2 &quot;Suite 84&quot; city &quot;Philadelphia&quot; state &quot;Pennsylvania&quot; zip &quot;19151&quot; lat &quot;39.9772&quot; lng &quot;-75.2545&quot; hours &quot;Mon-Fri 8am to  8pm&quot; service1 &quot;Service ID&quot; service2 &quot;S2&quot;" classname="| Mat Lam Tam | T5 | Morningstar | Suite 84 | Philadelphia | Pennsylvania | 19151 | 39.9772 | -75.2545 | Mon-Fri 8am to  8pm | Service ID | S2 |" time="0"/>
+  <testcase name="And I verify that the store with the name &quot;Mat Lam Tam&quot; has been updated successfully" classname="| Mat Lam Tam | T5 | Morningstar | Suite 84 | Philadelphia | Pennsylvania | 19151 | 39.9772 | -75.2545 | Mon-Fri 8am to  8pm | Service ID | S2 |" time="0"/>
+  <testcase name="And I delete the store created with name &quot;Mat Lam Tam&quot;" classname="| Mat Lam Tam | T5 | Morningstar | Suite 84 | Philadelphia | Pennsylvania | 19151 | 39.9772 | -75.2545 | Mon-Fri 8am to  8pm | Service ID | S2 |" time="0"/>
+  <testcase name="Then I verify that the store is deleted successfully from the database" classname="| Mat Lam Tam | T5 | Morningstar | Suite 84 | Philadelphia | Pennsylvania | 19151 | 39.9772 | -75.2545 | Mon-Fri 8am to  8pm | Service ID | S2 |" time="0.003">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <500>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.cucumber.steps.MyStepdefs.iVerifyThatTheStoreIsDeletedSuccessfullyFromTheDatabase(MyStepdefs.java:73)
+	at ✽.Then I verify that the store is deleted successfully from the database(storeCRUD.feature:12)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://localhost:3030/stores/9801
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	storeId=9801
+Multiparts:		<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="| Mat Lam Tam | T5 | Morningstar | Suite 84 | Philadelphia | Pennsylvania | 19151 | 39.9772 | -75.2545 | Mon-Fri 8am to  8pm | Service ID | S2 |" classname="| Mat Lam Tam | T5 | Morningstar | Suite 84 | Philadelphia | Pennsylvania | 19151 | 39.9772 | -75.2545 | Mon-Fri 8am to  8pm | Service ID | S2 |" time="0.004">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <500>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.cucumber.steps.MyStepdefs.iVerifyThatTheStoreIsDeletedSuccessfullyFromTheDatabase(MyStepdefs.java:73)
+	at ✽.Then I verify that the store is deleted successfully from the database(storeCRUD.feature:12)
+]]></failure>
+  </testcase>
+  <testcase name="Given Best buy API playground in running" classname="| Zathin | T1 | Anhalt | Room 1432 | Long Beach | California | 90805 | 33.8635 | -118.1801 | Mon-Fri 8am to  8pm | Service ID | S3 |" time="0"/>
+  <testcase name="When I create a new store by providing the information name &quot;Zathin&quot; type &quot;T1&quot; address &quot;Anhalt&quot; address2 &quot;Room 1432&quot; city &quot;Long Beach&quot; state &quot;California&quot; zip &quot;90805&quot; lat &quot;33.8635&quot; lng &quot;-118.1801&quot; hours &quot;Mon-Fri 8am to  8pm&quot; service1 &quot;Service ID&quot; service2 &quot;S3&quot;" classname="| Zathin | T1 | Anhalt | Room 1432 | Long Beach | California | 90805 | 33.8635 | -118.1801 | Mon-Fri 8am to  8pm | Service ID | S3 |" time="0"/>
+  <testcase name="Then I verify the store with name &quot;Zathin&quot; is created" classname="| Zathin | T1 | Anhalt | Room 1432 | Long Beach | California | 90805 | 33.8635 | -118.1801 | Mon-Fri 8am to  8pm | Service ID | S3 |" time="0"/>
+  <testcase name="And I update the store with information name &quot;Zathin&quot; type &quot;T1&quot; address &quot;Anhalt&quot; address2 &quot;Room 1432&quot; city &quot;Long Beach&quot; state &quot;California&quot; zip &quot;90805&quot; lat &quot;33.8635&quot; lng &quot;-118.1801&quot; hours &quot;Mon-Fri 8am to  8pm&quot; service1 &quot;Service ID&quot; service2 &quot;S3&quot;" classname="| Zathin | T1 | Anhalt | Room 1432 | Long Beach | California | 90805 | 33.8635 | -118.1801 | Mon-Fri 8am to  8pm | Service ID | S3 |" time="0"/>
+  <testcase name="And I verify that the store with the name &quot;Zathin&quot; has been updated successfully" classname="| Zathin | T1 | Anhalt | Room 1432 | Long Beach | California | 90805 | 33.8635 | -118.1801 | Mon-Fri 8am to  8pm | Service ID | S3 |" time="0"/>
+  <testcase name="And I delete the store created with name &quot;Zathin&quot;" classname="| Zathin | T1 | Anhalt | Room 1432 | Long Beach | California | 90805 | 33.8635 | -118.1801 | Mon-Fri 8am to  8pm | Service ID | S3 |" time="0"/>
+  <testcase name="Then I verify that the store is deleted successfully from the database" classname="| Zathin | T1 | Anhalt | Room 1432 | Long Beach | California | 90805 | 33.8635 | -118.1801 | Mon-Fri 8am to  8pm | Service ID | S3 |" time="0">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <500>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.cucumber.steps.MyStepdefs.iVerifyThatTheStoreIsDeletedSuccessfullyFromTheDatabase(MyStepdefs.java:73)
+	at ✽.Then I verify that the store is deleted successfully from the database(storeCRUD.feature:12)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://localhost:3030/stores/9802
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	storeId=9802
+Multiparts:		<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="| Zathin | T1 | Anhalt | Room 1432 | Long Beach | California | 90805 | 33.8635 | -118.1801 | Mon-Fri 8am to  8pm | Service ID | S3 |" classname="| Zathin | T1 | Anhalt | Room 1432 | Long Beach | California | 90805 | 33.8635 | -118.1801 | Mon-Fri 8am to  8pm | Service ID | S3 |" time="0">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <500>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.cucumber.steps.MyStepdefs.iVerifyThatTheStoreIsDeletedSuccessfullyFromTheDatabase(MyStepdefs.java:73)
+	at ✽.Then I verify that the store is deleted successfully from the database(storeCRUD.feature:12)
+]]></failure>
+  </testcase>
+</testsuite>
